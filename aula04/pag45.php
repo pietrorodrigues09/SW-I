@@ -13,9 +13,17 @@
 
 
 
-    define (constant_name:"pi", value: 3.1415926536);
-    echo pi;
-    $r = 5;
-    $area = 4*pi $r**2;
-    echo $area;
+    
+    $pi = 3.141592;
+    $r = 4;
+
+    $a = 4 * $pi * ($r * $r);
+    echo "A area é igual a: $a";
+
+    echo "<br>";
+
+    $v = 4/3 * $pi * ($r * $r * $r);
+    echo "O volume é igual a: $v"
+
+
 ?>
