@@ -25,8 +25,6 @@
             }
         ?>
     </table>
-    <div class="botao">
-        <a href="exercicio02.php">Próximo exercício</a>
-    </div>
+    
 </body>
 </html>
