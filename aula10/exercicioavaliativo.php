@@ -38,7 +38,12 @@ function classificarAlunos($notas) {
     echo 'Quantidades de alunos em recuperação: ' .$recuperacao. "<br>" ;
     echo 'Quantidades de alunos reprovados: ' .$reprovado. "<br>" ;
     echo 'Média da turma '.$media;
-    return;
+    return [
+    'aprovados' => $aprovados,
+    'recuperacao' => $recuperacao,
+    'reprovados' => $reprovados,
+    'media' => $media
+     ];
 
 }
 
